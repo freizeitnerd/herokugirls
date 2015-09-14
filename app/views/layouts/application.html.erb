@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rails Girls Heroku Talk</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<% if Rails.env.development? %>
+  <h1>Hello Rails Girls!</h1>
+<% end %>
+<% if Rails.env.production? %>
+  <h1>Hello Public!</h1>
+<% end %>
+
+<%= yield %>
+
+</body>
+</html>

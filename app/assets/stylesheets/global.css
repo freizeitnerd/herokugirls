@@ -1,0 +1,17 @@
+body {
+  position: relative;
+  margin: 50px;
+  padding: 0px;
+  background: #fff;
+  color: #390c00;
+  text-rendering: optimizeLegibility;
+  font: 13px/1.5 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+}
+h1, h2, h3, h4, h5, a {
+  color: #e0330c;
+  text-align: center;
+  line-height: 1.1;
+}
+h1 {
+  font-size: 4em;
+}
