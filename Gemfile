@@ -5,11 +5,12 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.3'
 
 group :development do
-  # Use sqlite3 as the database for Active Record
+  # Use sqlite3 in development
   gem 'sqlite3'
 end
 
 group :production do
+  # Use PostgresQL in production
   gem 'pg'
   gem 'rails_12factor'
 end
