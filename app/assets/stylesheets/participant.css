@@ -1,0 +1,28 @@
+.participantsList .handle a{
+  font-size: 2em;
+  text-decoration: none;
+}
+.participantsList .handle a:hover{
+  font-size: 2em;
+  text-decoration: underline;
+}
+.participantsList div{
+  display: inline-block;
+}
+.participantsList li .handle{
+   margin-right: 10px;
+}
+.participantsList li{
+   list-style: none;
+}
+.participantsList li .menu{
+  display: none;
+  font-size: 1em;
+}
+.participantsList li:hover .menu{
+  display: inline-block;
+  font-size: 1em;
+}
+.participantsList li:hover .menu a:hover{
+  color: #e0330c;
+}
