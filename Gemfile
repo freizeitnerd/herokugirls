@@ -4,17 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 
-group :development do
-  # Use sqlite3 in development
-  gem 'sqlite3'
-end
-
-group :production do
-  # Use PostgresQL in production
-  gem 'pg'
-  gem 'rails_12factor' # not needed in Rails 5
-end
-
+gem 'sqlite3'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
