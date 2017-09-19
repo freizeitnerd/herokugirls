@@ -12,7 +12,7 @@ end
 group :production do
   # Use PostgresQL in production
   gem 'pg'
-  gem 'rails_12factor'
+  gem 'rails_12factor' # not needed in Rails 5
 end
 
 
